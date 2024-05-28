@@ -8,7 +8,6 @@
 @font-face {
   font-family: 'Work Sans';
   src: url(/assets/fonts/WorkSans-VariableFont_wght.ttf) format('truetype');
-  font-weight: 400;
   font-style: normal;
 }
 
@@ -28,7 +27,7 @@ figure, blockquote, dl, dd {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   line-height: 1.5;
   background-color: var(--light-pink);
   font-family: 'Work Sans', sans-serif;
@@ -53,10 +52,65 @@ button, input, label {
   line-height: 1.1;
 }
 
-.backdrop-image {
+/* .backdrop-image {
   background-image: url('/assets/images/background-pattern-desktop.svg');
   background-size: cover;
   background-position: center;
-  height: 33.33vh; /* 1/3 of the viewport height */
+  background-repeat: no-repeat;
   width: 100%;
+  height: 33.33vh;
+} */
+
+.container {
+  margin: 4rem; /*! REMOVE*/
+  width: 600px;
+  height: auto;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+.card-content {
+  margin-inline: 2rem;
+}
+
+header > h1 {
+  font-size: 3rem;
+  color: var(--dark-purple);
+}
+
+
+.card-content > header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1.3rem;
+  padding-top: 2.5rem;
+}
+
+article {
+  border-bottom: 1px solid var(--light-pink);
+}
+
+article:last-child {
+  padding-bottom: 1rem;
+}
+
+.faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.3rem;
+
+  h2 {
+    font-size: 1rem;
+    padding-block: 1.5rem;
+    color: var(--dark-purple);
+  }
+}
+
+.answer p {
+  color: var(--grayish-purple);
+}
+
+
