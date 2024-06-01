@@ -22,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-- Practiced Single Responsibility Principle (SRP) from SOLID
+- Practiced Single Responsibility Principle (SRP) from `SOLID`
 - Position property in CSS to center the accordion
 - Semantic HTML5 Markup
 
