@@ -63,7 +63,7 @@ button, input, label {
 
 .container {
   max-width: 600px;
-  min-width: 350;
+  min-width: 600px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -105,12 +105,16 @@ article:last-child {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.3rem;
-
+  height: 4rem;
   h2 {
     font-size: 1rem;
     padding-block: 1.5rem;
     color: var(--dark-purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    line-height: inherit;
   }
 }
 
@@ -123,3 +127,19 @@ article:last-child {
   padding-block: 1rem;
 }
 
+
+@media only screen and (max-width: 992px) {
+  .faq h2 {
+    height: 100%;
+    padding-block: 0.8rem;
+
+  }
+  .container {
+  width: 90%;
+  min-width: 320px;
+  height: auto;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+}
