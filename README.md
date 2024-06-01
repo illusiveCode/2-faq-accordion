@@ -12,17 +12,18 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ![Project-Screenshot](./screenshot.png)
 
-- Live Site URL: (https://one-page-recipe.netlify.app/)
+- Live Site URL: (https://faq-sheet.netlify.app)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS3
+- JavaScript
 
 ### What I learned
 
-- CSS Resets: (https://piccalil.li/blog/a-more-modern-css-reset/)
-- styling lists and tables: using the li::marker class I was able to change the colour of the list points and numbers. Border-collapse property in css was a new one for me.
+- Practiced Single Responsibility Principle (SRP) from SOLID
+- Position property in CSS to center the accordion
 - Semantic HTML5 Markup
 
 ## Author
