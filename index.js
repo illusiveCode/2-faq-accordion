@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   faqs.forEach((faq, index) => {
     faq.addEventListener('click', () => handleFaqClick(index));
-    
   });
 
   function handleFaqClick(clickedIndex) {
